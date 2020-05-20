@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.labelRGB {
+    width: 10 vwpx;
+    left: 0px;
+    margin-right: 20px;
+}
+
+input {
+    width: 10 vwpx;
+    left: 0px;
+    margin-right: 20px;
+}
+
+#scaleRed,
+#scaleGreen,
+#scaleBlue {
+    display: flex;
+    align-items: center;
+}
+
+.rangeInput {}
+
+#scales {
+    width: auto;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#viewColor {
+
+    height: 100px;
+    width: 100px;
+    margin-top: 5vh;
+    border: 1px solid black;
+}

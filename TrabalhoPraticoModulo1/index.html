@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Prático 1</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>Find your color</h1>
+    <section id="scales">
+        <div id="scaleRed">
+            <label class="labelRGB">(R) Red</label>
+            <input type="range" id="red" value="0" max="255">
+            <input type="text" class="rangeInput" id="valueRed" disabled>
+        </div>
+        <div id="scaleGreen">
+            <label class="labelRGB">(G) Green</label>
+            <input type="range" id="green" value="0" max="255">
+            <input type="text" class="rangeInput" id="valueGreen" disabled>
+        </div>
+        <div id="scaleBlue">
+            <label class="labelRGB">(B) Blue</label>
+            <input type="range" id="blue" value="0" max="255">
+            <input type="text" class="rangeInput" id="valueBlue" disabled>
+        </div>
+        <div id="viewColor"></div>
+    </section>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
