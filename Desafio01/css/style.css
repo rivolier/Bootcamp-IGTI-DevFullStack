@@ -1,0 +1,59 @@
+body {
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: darkcyan;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+img {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 10px;
+  border-radius: 50%;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+}
+
+#name {
+  margin-right: 1%;
+}
+#container {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: white;
+}
+
+#seachName {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2px;
+}
+
+#generalPeople {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.divIntern {
+  width: 100%;
+  height: auto;
+  padding-left: 10px;
+  margin: 2px;
+  border: 1px solid darkcyan;
+  border-radius: 20px;
+}
+
+#people,
+#status {
+  padding: 0px;
+  text-align: left;
+}
